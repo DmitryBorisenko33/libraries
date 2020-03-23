@@ -1,0 +1,15 @@
+.modgit
+.pio*
+vendor
+!.empty
+*.bin
+*.gch
+logs
+pio
+server/nodejs
+credentials.h
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+remotes

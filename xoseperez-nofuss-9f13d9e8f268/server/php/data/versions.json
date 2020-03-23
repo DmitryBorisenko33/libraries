@@ -1,0 +1,30 @@
+[
+    {
+        "origin": {
+            "mac": "5C:CF:7F:8C:1E:6F",
+            "device": "TEST",
+            "min": "0.1.0",
+            "max": "0.1.0"
+        },
+        "target": {
+            "version": "0.1.1",
+            "firmware": "/firmware/test-0.1.1.bin",
+            "spiffs": ""
+        }
+    },
+    {
+        "origin": {
+            "mac": [
+                "5C:CF:7F:8C:1E:6F", "5C:CF:7F:8C:1E:6E"
+            ],
+            "device": "TEST",
+            "min": "*",
+            "max": "0.0.9"
+        },
+        "target": {
+            "version": "0.1.0",
+            "firmware": "/firmware/test-0.1.0.bin",
+            "spiffs": ""
+        }
+    }
+]
